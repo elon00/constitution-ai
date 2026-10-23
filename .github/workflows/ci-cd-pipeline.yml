@@ -1,0 +1,15 @@
+name: CI/CD Pipeline
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Smoke Tests
+        run: python tests/reality_check_harness.py
+      - name: CodeQL Analysis
+        uses: github/codeql-action/analyze@v3

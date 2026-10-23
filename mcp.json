@@ -1,0 +1,19 @@
+{
+  "name": "constitution-ai",
+  "ticker": "CNST",
+  "title": "Constitution AI",
+  "tools": [
+    {
+      "name": "audit_constitutional_fidelity",
+      "description": "Audits legislative bills against constitutional fundamental rights"
+    },
+    {
+      "name": "translate_vernacular_rights",
+      "description": "Translates complex constitutional law into 50+ localized languages"
+    },
+    {
+      "name": "file_anonymous_civil_rights_grievance",
+      "description": "Records zero-knowledge human rights violation proofs"
+    }
+  ]
+}
