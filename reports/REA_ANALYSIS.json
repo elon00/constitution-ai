@@ -1,7 +1,7 @@
 {
   "engine": "REA_Reverse_Engineer_Anything",
   "status": "STRUCTURE_RECONSTRUCTED",
-  "analyzed_files": 13,
+  "analyzed_files": 15,
   "manifest": {
     "ARCHITECTURE_BOOK.md": {
       "bytes": 1519
@@ -24,6 +24,12 @@
     "contracts\\LaunchpadToken.sol": {
       "bytes": 2268
     },
+    "reports\\RAVEN_RSI_DIAGNOSTIC.json": {
+      "bytes": 340
+    },
+    "reports\\REA_ANALYSIS.json": {
+      "bytes": 948
+    },
     "scripts\\rea_inspector.py": {
       "bytes": 1485
     },
@@ -43,5 +49,5 @@
       "bytes": 531
     }
   },
-  "timestamp": 1793992757
+  "timestamp": 1794221652
 }
